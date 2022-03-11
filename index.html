@@ -6,8 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Batch image resize command maker for imageMagick</title>
+    <link rel="stylesheet" href="src/styles/style.scss">
 </head>
 <body>
-
+    <form action="#" class="command-creator">
+        <label for="input" class="command-creator__label">Input directory</label>
+        <input type="text" id="input" class="command-creator__input-field">
+        <label for="output" class="command-creator__label">Output directory</label>
+        <input type="text" id="output" class="command-creator__output-field">
+        <label for="sizes" class="command-creator__label">Sizes</label>
+        <input type="text" id="sizes" class="command-creator__sizes-field">
+        <button type="submit">Create command</button>
+    </form>
+    <script src="/src/scripts/main.ts"></script>
 </body>
 </html>
