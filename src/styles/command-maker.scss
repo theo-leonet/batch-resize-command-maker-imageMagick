@@ -2,18 +2,9 @@
   overflow: hidden;
 }
 
-.title{
-  text-align: center;
-  margin: 120px 0 0;
-
-  font-family: $main;
-
-  font-size: 36px;
-}
-
 .forms__container{
   width: 80%;
-  margin: 200px auto;
+  margin: 100px auto;
   display: flex;
   align-items: flex-start;
   gap: 120px;
@@ -80,4 +71,3 @@
   font-family: $main;
   font-size: 16px;
 }
-
